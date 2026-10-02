@@ -8,7 +8,6 @@
 ## 🌐 Live Demo & Repository
 
 🚀 **Production Deployed Web App:** [https://locallaunch-ai.surge.sh](https://locallaunch-ai.surge.sh)  
-📂 **GitHub Repository:** [https://github.com/sangeetha302005/LocalLaunchAI](https://github.com/sangeetha302005/LocalLaunchAI)
 
 Anyone can open this URL in any modern browser on mobile, tablet, or desktop to generate conversion-ready website copy.
 
