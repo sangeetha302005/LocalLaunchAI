@@ -5,9 +5,10 @@
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo & Repository
 
-🚀 **Production Deployed Web App:** [https://locallaunch-ai.surge.sh](https://locallaunch-ai.surge.sh)
+🚀 **Production Deployed Web App:** [https://locallaunch-ai.surge.sh](https://locallaunch-ai.surge.sh)  
+📂 **GitHub Repository:** [https://github.com/sangeetha302005/LocalLaunchAI](https://github.com/sangeetha302005/LocalLaunchAI)
 
 Anyone can open this URL in any modern browser on mobile, tablet, or desktop to generate conversion-ready website copy.
 
@@ -112,7 +113,6 @@ locallaunch-ai/
 │   │   ├── LiveWebsitePreview.tsx # Simulated interactive responsive website mockup
 │   │   ├── ExamplesGallery.tsx  # 6 industry presets (Salon, Cafe, Clinic, Agency, etc.)
 │   │   ├── HowItWorksSection.tsx# 4-step user guide
-│   │   ├── PricingSection.tsx   # SaaS pricing tiers & FAQ accordion
 │   │   ├── SavedProjectsDrawer.tsx # Browser localStorage saved projects manager
 │   │   ├── Toast.tsx            # Floating feedback notifications
 │   │   └── Footer.tsx           # SaaS footer with quick navigation links
@@ -160,7 +160,7 @@ VITE_GEMINI_API_KEY=your_gemini_api_key_here
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/LocalLaunchAI.git
+git clone https://github.com/sangeetha302005/LocalLaunchAI.git
 cd LocalLaunchAI
 ```
 
