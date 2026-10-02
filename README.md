@@ -5,7 +5,7 @@
 
 ---
 
-## 🌐 Live Demo & Repository
+## 🌐 Live Demo 
 
 🚀 **Production Deployed Web App:** [https://locallaunch-ai.surge.sh](https://locallaunch-ai.surge.sh)  
 
