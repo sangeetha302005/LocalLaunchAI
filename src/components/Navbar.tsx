@@ -43,30 +43,24 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, savedCount, onOpenSa
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => handleNavClick('home')}
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer"
             >
               Home
             </button>
             <button
               onClick={() => handleNavClick('how-it-works')}
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer"
             >
               How It Works
             </button>
             <button
               onClick={() => handleNavClick('examples')}
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors flex items-center gap-1.5"
+              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors flex items-center gap-1.5 cursor-pointer"
             >
               Examples
               <span className="px-1.5 py-0.5 text-[10px] font-bold bg-purple-100 text-purple-700 dark:bg-purple-950/80 dark:text-purple-300 rounded-full">
                 6 Presets
               </span>
-            </button>
-            <button
-              onClick={() => handleNavClick('pricing')}
-              className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-            >
-              Pricing
             </button>
           </nav>
 
@@ -74,7 +68,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, savedCount, onOpenSa
           <div className="hidden md:flex items-center gap-3">
             <button
               onClick={onOpenSaved}
-              className="relative inline-flex items-center gap-2 px-3.5 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800/80 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-xl transition-all"
+              className="relative inline-flex items-center gap-2 px-3.5 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800/80 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-xl transition-all cursor-pointer"
               title="View Saved Generated Copies"
             >
               <Bookmark className="w-4 h-4 text-indigo-500" />
@@ -88,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, savedCount, onOpenSa
 
             <button
               onClick={() => handleNavClick('generator')}
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 hover:from-indigo-500 hover:via-purple-500 hover:to-indigo-600 rounded-xl shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all"
+              className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 hover:from-indigo-500 hover:via-purple-500 hover:to-indigo-600 rounded-xl shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer"
             >
               <Sparkles className="w-4 h-4" />
               <span>Generate Copy</span>
@@ -144,12 +138,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, savedCount, onOpenSa
             <span className="px-2 py-0.5 text-xs font-bold bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300 rounded-full">
               6 Presets
             </span>
-          </button>
-          <button
-            onClick={() => handleNavClick('pricing')}
-            className="w-full text-left py-2 px-3 rounded-lg text-base font-medium text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
-          >
-            Pricing
           </button>
           <div className="pt-2">
             <button

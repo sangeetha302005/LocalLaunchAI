@@ -63,14 +63,6 @@ export const Footer: React.FC<{ onNavigate: (id: string) => void }> = ({ onNavig
                   Business Examples
                 </button>
               </li>
-              <li>
-                <button
-                  onClick={() => onNavigate('pricing')}
-                  className="hover:text-white transition-colors cursor-pointer"
-                >
-                  Pricing
-                </button>
-              </li>
             </ul>
           </div>
 

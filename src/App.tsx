@@ -6,7 +6,6 @@ import { HowItWorksSection } from './components/HowItWorksSection';
 import { ExamplesGallery } from './components/ExamplesGallery';
 import { GeneratorForm } from './components/GeneratorForm';
 import { OutputDashboard } from './components/OutputDashboard';
-import { PricingSection } from './components/PricingSection';
 import { SavedProjectsDrawer } from './components/SavedProjectsDrawer';
 import { Footer } from './components/Footer';
 import { ToastContainer } from './components/Toast';
@@ -194,9 +193,6 @@ export const App: React.FC = () => {
 
         {/* 6 Real-world Business Examples Gallery */}
         <ExamplesGallery onSelectExample={handleSelectExample} />
-
-        {/* SaaS Pricing & FAQ Section */}
-        <PricingSection onGetStarted={() => handleNavigate('generator')} />
       </main>
 
       {/* Footer */}
