@@ -5,9 +5,10 @@
 
 ---
 
-## 🌐 Live Demo 
+## 🌐 Live Demo & Repository
 
-🚀 **Production Deployed Web App:** [https://locallaunch-ai.surge.sh](https://locallaunch-ai.surge.sh)  
+🚀 **Live Web App (GitHub Pages):** [https://sangeetha302005.github.io/LocalLaunchAI/](https://sangeetha302005.github.io/LocalLaunchAI/)  
+📂 **GitHub Repository:** [https://github.com/sangeetha302005/LocalLaunchAI](https://github.com/sangeetha302005/LocalLaunchAI)
 
 Anyone can open this URL in any modern browser on mobile, tablet, or desktop to generate conversion-ready website copy.
 
@@ -93,7 +94,7 @@ $$\text{Website Copy} = f(\text{Business Type}, \text{Location}, \text{Services}
 | **Styling & Design System** | Tailwind CSS v4, Lucide React Icons |
 | **PDF Generation** | jsPDF |
 | **Delight & Animations** | Canvas-Confetti, CSS Keyframe Animations |
-| **Hosting & Deployment** | Surge.sh (Global CDN with HTTPS) |
+| **Hosting & Deployment** | GitHub Pages (Global CDN with HTTPS) |
 
 ---
 
@@ -101,6 +102,9 @@ $$\text{Website Copy} = f(\text{Business Type}, \text{Location}, \text{Services}
 
 ```text
 locallaunch-ai/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml           # Automated GitHub Pages CI/CD workflow
 ├── public/
 │   └── rocket.svg               # App favicon
 ├── src/
