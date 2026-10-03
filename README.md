@@ -7,7 +7,7 @@
 
 ## 🌐 Live Demo & Repository
 
-🚀 **Live Streamlit App:** [https://locallaunchai.streamlit.app/](https://locallaunchai.streamlit.app/)  
+🚀 **Live Streamlit App:** [https://locallaunchai-302005.streamlit.app/](https://locallaunchai-302005.streamlit.app/)  
 🌐 **Live GitHub Pages App:** [https://sangeetha302005.github.io/LocalLaunchAI/](https://sangeetha302005.github.io/LocalLaunchAI/)  
 📂 **GitHub Repository:** [https://github.com/sangeetha302005/LocalLaunchAI](https://github.com/sangeetha302005/LocalLaunchAI)
 
