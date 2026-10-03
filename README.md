@@ -8,8 +8,7 @@
 ## 🌐 Live Demo & Repository
 
 🚀 **Live Streamlit App:** [https://locallaunchai-302005.streamlit.app/](https://locallaunchai-302005.streamlit.app/)  
-🌐 **Live GitHub Pages App:** [https://sangeetha302005.github.io/LocalLaunchAI/](https://sangeetha302005.github.io/LocalLaunchAI/)  
-📂 **GitHub Repository:** [https://github.com/sangeetha302005/LocalLaunchAI](https://github.com/sangeetha302005/LocalLaunchAI)
+
 
 ---
 
@@ -96,7 +95,7 @@ streamlit run app.py
 ### 2. Deploy to Streamlit Cloud (1-Click)
 1. Go to [share.streamlit.io](https://share.streamlit.io) and log in with GitHub.
 2. Click **New app**.
-3. Select your repository: `sangeetha302005/LocalLaunchAI`.
+3. Select your GitHub repository (e.g., YOUR_USERNAME/LocalLaunchAI).
 4. Main file path: `app.py`.
 5. Click **Deploy!**
 
