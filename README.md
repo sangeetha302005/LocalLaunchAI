@@ -5,7 +5,7 @@
 
 ---
 
-## 🌐 Live Demo & Repository
+## 🌐 Live Demo 
 
 🚀 **Live Streamlit App:** [https://locallaunchai-302005.streamlit.app/](https://locallaunchai-302005.streamlit.app/)  
 
